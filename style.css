@@ -448,6 +448,44 @@ section p {
     border-color: #bfdbfe;
 }
 
+.social-links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.social-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 12px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.social-link:hover {
+    color: #ffffff;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 18px rgba(15, 23, 42, 0.16);
+}
+
+.social-link svg {
+    width: 22px;
+    height: 22px;
+    fill: currentColor;
+}
+
+.whatsapp {
+    background-color: #16a34a;
+}
+
+.instagram {
+    background: linear-gradient(135deg, #833ab4, #e1306c, #f77737);
+}
+
 
 /* ========================================
    9. FOOTER
