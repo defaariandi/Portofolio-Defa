@@ -482,6 +482,10 @@ section p {
     background-color: #16a34a;
 }
 
+.email {
+    background-color: #2563eb;
+}
+
 .instagram {
     background: linear-gradient(135deg, #833ab4, #e1306c, #f77737);
 }
